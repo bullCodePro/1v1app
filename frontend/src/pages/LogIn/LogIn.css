@@ -1,0 +1,91 @@
+/* Log In Page Styles */
+.login-main-content {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    flex: 1; /* Ensure the content takes the full available height */
+    background-image: url('../../../public/backgroundImages/star.jpg'); /* Set the background image */
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  /* Log In Form Container */
+  .log-in-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 25px 20px;  /* Adjusted padding to reduce spacing */
+    background-color: rgba(255, 255, 255, 0.8);  /* Slight transparency to let background show */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .log-in-container h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .log-in-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Vertical spacing between input fields */
+  }
+  
+  .log-in-container label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .log-in-container input {
+    padding: 12px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .log-in-container button {
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .log-in-container button:hover {
+    background-color: #555;
+  }
+  
+  .log-in-container p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .log-in-container a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .log-in-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error and Success Message Styles */
+  .log-in-container p.error {
+    color: red;
+    text-align: center;
+  }
+  
+  .log-in-container p.success {
+    color: green;
+    text-align: center;
+  }
+  

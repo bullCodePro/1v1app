@@ -1,0 +1,63 @@
+    .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Align content at the top */
+    height: 100vh;  /* Full viewport height */
+    padding: 20px;
+    background-image: url('/public/backgroundImages/galaxy.jpg');
+    background-size: cover;  /* Ensure it covers the full page */
+    background-position: center; /* Center the background */
+  }
+  
+  .hero {
+    text-align: center;
+    padding: 20px 20px;  /* Reduced padding to bring the content higher */
+    margin-top: 0;  /* Removed any extra margin on top */
+  }
+  
+  .title {
+    font-family: 'Press Start 2P', sans-serif;
+    font-size: 50px;
+    color: rgb(189, 6, 6);
+    margin-bottom: 30px;
+  }
+  
+  .description {
+    font-size: 18px;
+    color: rgb(189, 6, 6);
+    margin-bottom: 200px;
+  }
+  
+  .cta-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .cta-button {
+    margin-top: 150px;
+    padding: 12px 25px;
+    font-size: 16px;
+    color: rgb(189, 6, 6);
+    background-color: #000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.8s;
+  }
+  
+  .cta-button:hover {
+    background-color: rgba(189, 6, 6, 0.602);
+    color: #000;
+  }
+
+  .meme-container {
+    background-image: url("/public/backgroundImages/meme.jpeg"); /* Background image for meme container */
+    background-size: contain; /* Make sure the whole image fits within the container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    height: 200px; /* Adjust the height of the meme container */
+    width: 100%; /* Make it fill the width */
+    margin-top: 20px; /* Space between the buttons and the meme */
+    border-radius: 8px; /* Optional: rounded corners */
+  }
