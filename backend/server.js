@@ -7,7 +7,7 @@ const pool = require('./config/dbConfig'); // Import the database pool for query
 
 const app = express();
 const port = 5000;
-
+const appUrl = "1v1app.up.railway.app";
 // Secret key for JWT (store securely, e.g., in environment variables)
 const JWT_SECRET = 'your_secret_key_here';
 
@@ -101,5 +101,5 @@ app.post('/api/login', async (req, res) => {
 
 // Start the server
 app.listen(port, () => {
-  console.log(`Server is running on ${app.url}:${port}`);
+  console.log(`Server is running on ${appUrl}:${port}`);
 });
