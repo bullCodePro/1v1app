@@ -1,0 +1,93 @@
+/* Log In/Sign Up Page Container */
+.sign-up-main-content {
+    display: flex;
+    justify-content: center; /* Horizontally center content */
+    align-items: center; /* Vertically center content */
+    flex: 1; /* Ensure the content takes the full available height */
+    background-image: url('../../../public/backgroundImages/saturno.webp'); /* Use the correct path */
+    background-size: cover; /* Ensure the background image covers the entire page */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    height: 100vh; /* Full height of the viewport */
+  }
+  
+  /* Sign Up Form Container */
+  .sign-up-container {
+    max-width: 400px;
+    width: 100%;
+    padding: 20px;
+    background-color: rgba(255, 255, 255, 0.8); /* Slight transparency to allow background to show */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+  }
+  
+  .sign-up-container h2 {
+    font-family: 'Press Start 2P', sans-serif;
+    text-align: center;
+    margin-bottom: 20px;
+    color: yellow;
+  }
+  
+  /* Form Styling */
+  .sign-up-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  .sign-up-container label {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 5px;
+  }
+  
+  .sign-up-container input {
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 100%;
+  }
+  
+  .sign-up-container button {
+    padding: 12px 25px;
+    font-size: 16px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  
+  .sign-up-container button:hover {
+    background-color: #555;
+  }
+  
+  .sign-up-container p {
+    text-align: center;
+    font-size: 14px;
+    color: #666;
+  }
+  
+  .sign-up-container a {
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  .sign-up-container a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Error and Success Message Styles */
+  .sign-up-container p.error {
+    color: red;
+    text-align: center;
+  }
+  
+  .sign-up-container p.success {
+    color: green;
+    text-align: center;
+  }
+  
